@@ -12,6 +12,8 @@ public interface DiscoJDBC
     Disco findById(Integer id);
     boolean save(Disco disco);
     boolean update(Disco disco);
+    boolean savetest(Disco disco);
+    boolean updatetest(Disco disco);
     boolean delete(Disco disco);
 
 }

@@ -39,7 +39,7 @@ class CancionJDBCImplTest {
         cancion.setTitulo("LLoloso");
         cancion.setDuracion(Time.valueOf("00:12:42"));
         cancion.setDisco_id(1);
-        res = cancionJDBC.save(cancion);
+        res = cancionJDBC.savetest(cancion);
         assertEquals(true, res);
     }
 
@@ -52,7 +52,7 @@ class CancionJDBCImplTest {
         cancion.setDisco_id(1);
         cancion.setId(1);
         CancionJDBC cancionJDBC = CancionJDBCImpl.getInstance();
-        res = cancionJDBC.update(cancion);
+        res = cancionJDBC.updatetest(cancion);
         assertEquals(true, res);
     }
 

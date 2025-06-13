@@ -44,7 +44,7 @@ class DiscoJDBCImplTest {
         disco.setArtista_id(1);
         disco.setDisquera_id(1);
         disco.setGenero_id(1);
-        res = discoJDBC.save(disco);
+        res = discoJDBC.savetest(disco);
         assertEquals(true, res);
     }
 
@@ -63,7 +63,7 @@ class DiscoJDBCImplTest {
         disco.setDisquera_id(1);
         disco.setGenero_id(1);
         disco.setId(1);
-        res = discoJDBC.update(disco);
+        res = discoJDBC.updatetest(disco);
         assertEquals(true, res);
     }
 

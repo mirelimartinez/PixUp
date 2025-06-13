@@ -9,7 +9,7 @@ import java.sql.SQLException;
 public abstract  class Conexion<T extends Catalogo>
 {
     public static String user="root";
-    public static String password="1234";
+    public static String password="Capuchino2008";
     public static String db = "pixup";
     public static String server = "127.0.0.1";
     protected Connection connection;
@@ -102,4 +102,5 @@ public abstract  class Conexion<T extends Catalogo>
     }
 
 }
+
 
